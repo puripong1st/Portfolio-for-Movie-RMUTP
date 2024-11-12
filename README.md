@@ -21,7 +21,7 @@
 
 1. โคลนโปรเจค:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/puripong1st/Portfolio-for-Movie-RMUTP.git
 
 ## ผู้พัฒนา
 
@@ -51,7 +51,7 @@ Below is a screenshot from the previous version:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/puripong1st/Portfolio-for-Movie-RMUTP.git
 
 ## Developer
 
