@@ -1,0 +1,56 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mitr';
+    overflow-x: hidden;
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* เปลี่ยนจาก height เป็น min-height */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+  }
+  
+  #about {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  
+  [modal-backdrop] {
+    background-color: rgba(0, 0, 0, 0.6); /* สีดำโปร่งใส */
+}
+.certificate-grid {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.6s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+#CerObjective {
+  overflow-x: hidden;
+}
+.certificate-card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+  
+  @media (max-width: 768px) {
+    section {
+      min-height: 1000px; /* ปรับความสูงให้อัตโนมัติสำหรับหน้าจอขนาดเล็ก */
+      padding: 40px 20px;
+      flex-direction: column;
+    }
+    
+  }
+  
